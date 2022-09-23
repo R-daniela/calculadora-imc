@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>CALCULADORA DE IMC</h1>
+        </div>
+        <div class="peso">
+            <h3>Peso</h3>
+            <input type="number" id="peso">
+        </div>
+        <div class="altura">
+            <h3>Altura</h3>
+            <input type="number" id="altura">
+        </div>
+        <div class="boton">
+          <button id=" boton_calcular" type="button" class="boton_calcular">Calcular</button>
+          <button id="boton-reiniciar" type="button">Reiniciar</button>
+        </div>
+        <div class="">
+            <h3>Su indice de masa corporal es:</h3>
+            <input type="number" id="resultado">
+            <div class="imagen">
+                <img src="https://static.vecteezy.com/system/resources/previews/003/609/230/original/bmi-categories-chart-body-mass-index-and-scale-mass-people-severely-underweight-underweight-optimal-overweight-obese-severely-obese-graph-control-health-illustration-vector.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="./calculadora.js"></script>
+</body>
+</html>
